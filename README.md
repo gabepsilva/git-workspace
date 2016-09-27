@@ -44,12 +44,8 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## Screenshots
 
-1. Cygwin
-
 ![alt text](https://github.com/gabrielpsilva/git-workspace/blob/master/screenshots/Capture1.png "Cygwin")
-
-2. Cheat Sheet
-
 ![alt text](https://github.com/gabrielpsilva/git-workspace/blob/master/Git-Cheat-Sheet-by-RebelLabs.png "Cheat Sheet")
+
 
 
