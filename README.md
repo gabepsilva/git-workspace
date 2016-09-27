@@ -1,5 +1,5 @@
 # git-workspace
-### How to setup a nice Linux/Mac/Windows(cygwin) workspace
+### How to setup a nice git workspace in Linux/Mac/Windows(cygwin) with auto-complete feature
 
 ## Basic Settings:
 
@@ -37,6 +37,13 @@ $ cat ~/.ssh/id_rsa.pub # create public
 git remote add origin git@github.com:gabrielpsilva/git-workspace.git
 git push -u origin master
 ```
+
+
+## Improve your README.md 
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+## Screenshots
+![alt text](https://github.com/gabrielpsilva/git-workspace/blob/master/screenshots/Capture1.png "Cygwin")
 
 
 
