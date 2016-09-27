@@ -3,7 +3,11 @@
 
 ## Basic Settings:
 
-1- Download the 3 files of this repo to your local pc
+1- Download these 3 files of this repo to your local pc: 
+
+1. bash_profile_course
+2. git-completion.bash
+3. git-prompt.sh
 
 2- Open your terminal and type the commands below
 
