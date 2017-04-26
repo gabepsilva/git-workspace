@@ -34,7 +34,7 @@ $ cat ~/.ssh/id_rsa.pub # create public
 
 4- Use the commands below to make the first sync
 ```shell
-git remote add origin git@github.com:gabrielpsilva/git-workspace.git
+git remote add origin git@github.com:<<username>>/<<git-project-name>>.git
 git push -u origin master
 ```
 
