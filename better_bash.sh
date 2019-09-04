@@ -1,4 +1,5 @@
 
+
 function vpnStatus(){
 	if [[ $(expressvpn status) == *"Connected"* ]]
 	then
@@ -6,6 +7,15 @@ function vpnStatus(){
   else
   	echo -e "\U1f513" 
 	fi
+}
+
+function vpnConnect(){
+    if [[ -z "$1" ]]
+    then
+        expressvpn connect cato2
+    else
+        expressvpn connect $1
+    fi
 }
 
 function gitBranch(){
@@ -16,7 +26,7 @@ function gitBranch(){
 	echo -e $(__git_ps1 '[%s]')
 }
 
-alias vc="expressvpn connect"
+alias vc="vpnConnect"
 alias vd="expressvpn disconnect"
 
 # Reset
