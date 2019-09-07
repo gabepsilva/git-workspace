@@ -57,3 +57,14 @@ if [ "$color_prompt" = yes ]; then
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
+
+
+export GOROOT=$HOME/go
+export GOPATH=$HOME/GOPATH
+export PATH=$PATH:$GOROOT/bin
+
+export PATH=$PATH:$HOME/python374/bin
+export JAVA_HOME=$HOME/jdk-11.0.4
+export PATH=$PATH:$JAVA_HOME/bin
+
+export IOOBJECTS_MONGO="mongodb+srv://gbrl:*****@cluster0-huuez.gcp.mongodb.net/retryWrites=true&w=majority"
